@@ -11,30 +11,15 @@ class ComposerStaticInit95a218e2222280f121640370b862d2d1
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         '3f8bdd3b35094c73a26f0106e3c0f8b2' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/SendGrid.php',
         '9dda55337a76a24e949fbcc5d905a2c7' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/helpers/mail/Mail.php',
->>>>>>> parent of 3b2f424... .gitignore change
-=======
-        '3f8bdd3b35094c73a26f0106e3c0f8b2' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/SendGrid.php',
-        '9dda55337a76a24e949fbcc5d905a2c7' => __DIR__ . '/..' . '/sendgrid/sendgrid/lib/helpers/mail/Mail.php',
->>>>>>> parent of 3b2f424... .gitignore change
     );
 
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
             'Stevenmaguire\\OAuth2\\Client\\' => 28,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
             'SendGrid\\' => 9,
->>>>>>> parent of 3b2f424... .gitignore change
-=======
-            'SendGrid\\' => 9,
->>>>>>> parent of 3b2f424... .gitignore change
         ),
         'P' => 
         array (
@@ -58,19 +43,10 @@ class ComposerStaticInit95a218e2222280f121640370b862d2d1
         array (
             0 => __DIR__ . '/..' . '/stevenmaguire/oauth2-microsoft/src',
         ),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 3b2f424... .gitignore change
         'SendGrid\\' => 
         array (
             0 => __DIR__ . '/..' . '/sendgrid/php-http-client/lib',
         ),
-<<<<<<< HEAD
->>>>>>> parent of 3b2f424... .gitignore change
-=======
->>>>>>> parent of 3b2f424... .gitignore change
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',

@@ -426,11 +426,6 @@
         ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 3b2f424... .gitignore change
         "name": "sendgrid/php-http-client",
         "version": "3.8.0",
         "version_normalized": "3.8.0.0",
@@ -533,10 +528,6 @@
         ]
     },
     {
-<<<<<<< HEAD
->>>>>>> parent of 3b2f424... .gitignore change
-=======
->>>>>>> parent of 3b2f424... .gitignore change
         "name": "stevenmaguire/oauth2-microsoft",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",

@@ -7,14 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Stevenmaguire\\OAuth2\\Client\\' => array($vendorDir . '/stevenmaguire/oauth2-microsoft/src'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     'SendGrid\\' => array($vendorDir . '/sendgrid/php-http-client/lib'),
->>>>>>> parent of 3b2f424... .gitignore change
-=======
-    'SendGrid\\' => array($vendorDir . '/sendgrid/php-http-client/lib'),
->>>>>>> parent of 3b2f424... .gitignore change
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'League\\OAuth2\\Client\\' => array($vendorDir . '/league/oauth2-client/src'),
