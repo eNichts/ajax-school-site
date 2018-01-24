@@ -199,6 +199,7 @@ body {
 }
 
 header.masthead {
+    position: relative;
     margin-bottom: 50px;
     width:100%;
     height:100%;
@@ -208,7 +209,7 @@ header.masthead {
     background-size: cover;
 }
 
-header.masthead .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
