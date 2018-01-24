@@ -23,7 +23,7 @@ $to = new SendGrid\Email(null, "lorydks891@gmail.com");
 $content = new SendGrid\Content("text/plain", "You have received a new message from your website contact form.\n\nHere are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message");
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-$apiKey = getenv('Redacted');
+$apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
 
 $response = $sg->client->mail()->send()->post($mail);
