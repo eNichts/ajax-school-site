@@ -14,126 +14,133 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <!-- Custom styles for this template -->
     <link href="css/style.min.css" rel="stylesheet">
 
     <!-- Page head icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/head_icon.png" />
+    <link rel="shortcut icon" type="image/x_icon" href="img/head_icon.png" />
 
 </head>
 
 <body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand" href="index.html" id="navbar-icon"><img src="img/navbar_icon.png"></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				Menu
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Argomenti</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="subjects/test.html">Italiano</a>
+							<a class="dropdown-item" href="subjects/history">Storia</a>
+							<a class="dropdown-item" href="subjects/systems">Sistemi</a>
+							<a class="dropdown-item" href="subjects/tpsi">TPSI</a>
+							<a class="dropdown-item" href="subjects/informatics">Informatica</a>
+							<a class="dropdown-item" href="subjects/english">Inglese</a>
+							<a class="dropdown-item" href="subjects/maths">Matematica</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contattami</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/navbar_icon.png"></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Argomenti</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#page2">Italiano</a>
-                            <a class="dropdown-item" href="#page3">Storia</a>
-                            <a class="dropdown-item" href="#page4">Sistemi</a>
-                            <a class="dropdown-item" href="#page5">TPSI</a>
-                            <a class="dropdown-item" href="#page6">Informatica</a>
-                            <a class="dropdown-item" href="#page7">Inglese</a>
-                            <a class="dropdown-item" href="#page8">Matematica</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="post.html">Contattami</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/eNichts/ajax-school-site">Github</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+	<!-- Page content -->
+	<div class="page-content">
+		<!-- Page Header -->
+		<header class="masthead" style="background-image: url('img/about-bg.jpg')">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col col-md-10 mx-auto">
+						<div class="site-heading">
+							<h1>Note repository</h1>
+							<span class="subheading">A site used to store my class notes.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="scroll-fade-in" class="scroll flip animated" title="Scroll for more content">
+				<i class="fas fa-angle-double-down"></i>
+			</div>
+		</header>
 
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/about-bg.jpg')">
-        <div class="overlay"></div>
+        <!-- Main Content -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="page-heading">
-                        <h1>About Me</h1>
-                        <span class="subheading">This is what I do.</span>
-                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
                 </div>
             </div>
         </div>
-    </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
-            </div>
-        </div>
+        <hr>
+
+        <!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-10 mx-auto">
+						<ul class="list-inline text-center">
+							<li class="list-inline-item">
+								<a href="#">
+									<span class="fa-stack fa-lg">
+										<i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+										<i class="fab fa-youtube fa-stack-1x"></i>
+									</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#">
+									<span class="fa-stack fa-lg">
+										<i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+										<i class="fab fa-facebook-f fa-stack-1x"></i>
+									</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://github.com/eNichts/ajax-school-site">
+									<span class="fa-stack fa-lg">
+										<i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+										<i class="fab fa-github fa-stack-1x"></i>
+									</span>
+								</a>
+							</li>
+						</ul>
+						<p class="copyright text-muted">Copyright &copy; Nichts 2017-18. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
     </div>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Nichts 2017-18</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- Custom scripts for this template -->
     <script src="js/script.min.js"></script>
 
