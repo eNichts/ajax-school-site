@@ -1,5 +1,6 @@
 <?php
-require 'vendor/autoload.php';
+require './vendor/autoload.php';
+require("./vendor/sendgrid/sendgrid/sendgrid-php.php");
 
 // Check for empty fields
 if(empty($_POST['name'])      ||
