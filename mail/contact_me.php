@@ -18,8 +18,8 @@ $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-$from = new SendGrid\Email(null, $email_address);
-$subject = "Website contact from: $name";
+$from = new SendGrid\Email(null, "donotreply@ajax-notes.com");
+$subject = "Website contact from a user";
 $to = new SendGrid\Email(null, "lorydks891@gmail.com");
 $content = new SendGrid\Content("text/plain", "You have received a new message from your website contact form.\n\nHere are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message");
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
@@ -30,7 +30,5 @@ $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
 echo $response->headers();
-echo $response->body();
-
-return true;         
+echo $response->body(); 
 ?>
