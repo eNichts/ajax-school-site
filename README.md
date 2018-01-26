@@ -16,7 +16,6 @@ This website ships as is and doesn't require any compilation, just the use of XA
 * [Bootstrap](https://getbootstrap.com/)
 * [Flaticon](http://www.flaticon.com)
 * [Animate.css](https://daneden.github.io/animate.css)
-* [Animated Waves](https://jsfiddle.net/loktar/M9Brh/)
 
 #### Target platforms
 * [Google Chrome](https://www.google.com/chrome/browser/desktop/)
