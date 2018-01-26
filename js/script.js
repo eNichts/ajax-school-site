@@ -9,7 +9,17 @@
             $('.scroll').fadeIn();
         }
     });
-    
+	
+	// Scroll to anchor when clicking on arrow
+	function scrollToAnchor(aid){
+		var aTag = $("div[name='"+ aid +"']");
+		$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+	}
+
+	$("#scroll-fade-in").click(function() {
+	   scrollToAnchor('page-main-content');
+	});
+	
     // Floating label headings for the contact form
     $("body").on("input propertychange", ".floating-label-form-group", function (e) {
         $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
