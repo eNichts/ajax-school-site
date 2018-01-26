@@ -1,10 +1,11 @@
 body {
     font-size: 20px;
-    background: #222;
-    color: #a8a8a8;
+    color: #455971;
+	background: #efefef;
     font-family: 'Lora', 'Times New Roman', serif;
     padding: 0px;
     margin: 0px;
+	-webkit-tap-highlight-color: #0085A1;
 }
 
 p {
@@ -107,10 +108,6 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: transparent;
-}
-
-body {
-    -webkit-tap-highlight-color: #0085A1;
 }
 
 #mainNav {
@@ -423,7 +420,7 @@ form .form-group:first-child .floating-label-form-group {
 }
 
 footer {
-    padding: 50px 0 65px;
+    padding: 0 25px;
 }
 
 footer .list-inline {
