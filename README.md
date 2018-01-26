@@ -7,7 +7,7 @@ This website is designed to store my school notes. The maintainers are me and a 
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
 
 ## Deployment
-This website ships as is and doesn't require any compilation, just the use of XAMPP/other server-sided programs for PhP.
+This website ships as is and doesn't require any compilation, just use the source through programs like XAMPP since the contact form uses php and you're good to go.
 
 #### Internal resources
 * Framework - [Nichts](https://github.com/eNichts)
