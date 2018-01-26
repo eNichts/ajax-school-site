@@ -72,8 +72,8 @@ blockquote {
 	color: white;
 }
 
-#scroll-fade-in {
-	-webkit-animation-duration: 3s;
+.heading {
+	text-transform: uppercase;
 }
 
 ::-moz-selection {
@@ -138,6 +138,10 @@ body {
     font-weight: 800;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+#scroll-fade-in {
+	-webkit-animation-duration: 3s;
 }
 
 @media only screen and (min-width: 992px) {
@@ -228,7 +232,6 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
 	position: relative;
-    padding: 30%;
     color: white;
 }
 
