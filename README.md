@@ -10,7 +10,7 @@ Permissions of this strong copyleft license are conditioned on making available 
 This website ships as is and doesn't require any compilation, just the use of XAMPP/other server-sided programs for PhP.
 
 #### Internal resources
-
+* Framework - [Nichts](https://github.com/eNichts)
 
 #### External resources
 * [Bootstrap](https://getbootstrap.com/)
