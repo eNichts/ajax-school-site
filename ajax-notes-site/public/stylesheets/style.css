@@ -71,10 +71,17 @@ hr {
 }
 
 .scroll {
-	position: fixed;
+    position: fixed;
+    z-index: 9999;
 	bottom: 10px;
 	left: 50%;
-	color: white;
+    color: white;
+    animation-name: bobbing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: bobbing;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .heading {
@@ -311,9 +318,6 @@ header.masthead .post-heading .meta a {
     header.masthead .post-heading .subheading {
         font-size: 30px;
     }
-}
-
-footer {
 }
 
 footer .list-inline {
