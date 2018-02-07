@@ -1,1 +1,1 @@
-web: node ajax-notes-site/views/index.ejs
+web: node ajax-notes-site/bin/www
