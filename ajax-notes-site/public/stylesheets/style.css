@@ -72,7 +72,6 @@ hr {
 
 .scroll {
     position: fixed;
-    z-index: 9999;
 	bottom: 10px;
 	left: 50%;
     color: white;
