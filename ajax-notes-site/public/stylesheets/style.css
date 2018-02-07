@@ -70,13 +70,6 @@ hr {
     float: right;
 }
 
-.scroll {
-    position: fixed;
-	bottom: 10px;
-	left: 50%;
-    color: white;
-}
-
 .heading {
 	text-transform: uppercase;
 }
@@ -142,8 +135,16 @@ img::-moz-selection {
 }
 
 #scroll-fade-in {
-    animation-duration: 3s;
-	-webkit-animation-duration: 3s;
+    position: fixed;
+	bottom: 10px;
+	left: 50%;
+    color: white;
+    animation-name: bobbing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: bobbing;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @media only screen and (min-width: 992px) {
@@ -350,4 +351,19 @@ footer .copyright {
 .btn-lg {
     font-size: 16px;
     padding: 25px 35px;
+}
+
+@keyframes bobbing {
+	0% {
+		transform:translate(0px,0px);
+		animation-timing-function:ease-in-out;
+	}
+	50% {
+		transform:translate(0px,8px);
+		animation-timing-function:ease-in-out;
+	}
+	100% {
+		transform:translate(0px,0px);
+		animation-timing-function: ease-in-out;
+	}
 }
