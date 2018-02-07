@@ -76,12 +76,6 @@ hr {
 	bottom: 10px;
 	left: 50%;
     color: white;
-    animation-name: bobbing;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    -webkit-animation-name: bobbing;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
 }
 
 .heading {
@@ -149,6 +143,7 @@ img::-moz-selection {
 }
 
 #scroll-fade-in {
+    animation-duration: 3s;
 	-webkit-animation-duration: 3s;
 }
 
