@@ -1,4 +1,4 @@
-# WIP
+# Notes site
 
 ## Introduction 
 This website is designed to store my school notes. The maintainers are me and a schoolmate (bigkewer). All trademarks and copyright-written content found on this website belongs to their respective owners.
